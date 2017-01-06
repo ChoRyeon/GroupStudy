@@ -36,7 +36,7 @@ public class asd {
 					( (graph[1][0]=='O') && (graph[1][1]=='O') && (graph[1][2]=='O') ) ||
 					( (graph[2][0]=='O') && (graph[2][1]=='O') && (graph[2][2]=='O') ) ||
 					( (graph[0][0]=='O') && (graph[1][1]=='O') && (graph[2][2]=='O') ) ||
-					( (graph[0][3]=='O') && (graph[1][1]=='O') && graph[2][0]=='O') )
+					( (graph[0][2]=='O') && (graph[1][1]=='O') && graph[2][0]=='O') )
 			{
 				System.out.print("ㅠ.ㅠ...Computer Win!");
 				break;
@@ -45,7 +45,7 @@ public class asd {
 				( (graph[1][0]=='X')&&(graph[1][1]=='X')&&(graph[1][2]=='X') ) ||
 				( (graph[2][0]=='X')&&(graph[2][1]=='X')&&(graph[2][2]=='X') ) ||
 				( (graph[0][0]=='X')&&(graph[1][1]=='X')&&(graph[2][2]=='X') ) ||
-				( (graph[0][3]=='X')&&(graph[1][1]=='X')&&(graph[2][0]=='X') ) )
+				( (graph[0][2]=='X')&&(graph[1][1]=='X')&&(graph[2][0]=='X') ) )
 			{
 				System.out.print("Congratulation! You Win!");
 			}//else if
